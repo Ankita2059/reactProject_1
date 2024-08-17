@@ -1,0 +1,168 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(217, 236, 242);
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+   
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: skyblue;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.btn-outline, .btn-primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid skyblue;
+    background-color: transparent;
+    color:skyblue;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.btn-primary {
+    background-color: skyblue;
+    color: #fff;
+}
+
+.btn-outline:hover {
+    background-color: skyblue;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #4a82bc;
+}
+
+.hero-section {
+    text-align: center;
+    margin-top: 50px;
+    padding: 60px 0;
+   
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #333;
+}
+
+.hero-section p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.search-input {
+     width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+.search-input:focus {
+    border-color: skyblue;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Practical Projects Section */
+.projects-section {
+    margin-top: 150px;
+}
+
+.projects-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.projects-content {
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.projects-content button{
+    height: 60px;
+}
+
+.projects-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    max-width: 50%;
+}
+
+/* Image with Description Section */
+.image-description-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    background-color: #e7f3ff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.image-content {
+    display: flex;
+    align-items: center;
+}
+
+.person-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.description {
+    max-width: 600px;
+}
+
+.description p {
+    font-size: 18px;
+    color: #333;
+}
